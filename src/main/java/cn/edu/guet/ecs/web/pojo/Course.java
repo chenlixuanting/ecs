@@ -43,5 +43,5 @@ public class Course implements Serializable {
     private List<Appraise> appraises;//课程评价
 
     private List<Discuss> discusses;//课程讨论
-
+    
 }

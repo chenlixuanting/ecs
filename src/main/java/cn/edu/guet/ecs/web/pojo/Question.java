@@ -3,6 +3,8 @@ package cn.edu.guet.ecs.web.pojo;
 import lombok.Data;
 
 import java.io.Serializable;
+import java.util.Date;
+import java.util.List;
 
 /**
  * 试题
@@ -10,10 +12,12 @@ import java.io.Serializable;
 @Data
 public class Question extends CoursewareDetail implements Serializable {
 
-    private Integer id;
-
     private String content;
 
+    private List<Picture> pictures;
+
     private Answer answer;
-    
+
+    private Integer score;
+
 }

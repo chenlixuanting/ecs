@@ -11,14 +11,6 @@ import java.util.Date;
 @Data
 public class Outline extends CoursewareDetail implements Serializable {
 
-    private Integer id;
-
-    private String url;
-
     private CoursewareItem coursewareItem;
-
-    private Date createTime;
-
-    private Date updateTime;
 
 }

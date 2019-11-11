@@ -6,22 +6,16 @@ import java.io.Serializable;
 import java.util.Date;
 import java.util.List;
 
-/**
- * 课件
- */
 @Data
-public class Courseware implements Serializable {
+public class WorkItem implements Serializable {
 
     private Integer id;
 
-    private String name;
+    private String title;
 
-    private List<CoursewareItem> coursewareItems;
-
-    private List<Work> works;
+    private List<Question> questions;
 
     private Date createTime;
 
     private Date updateTime;
-
 }
